@@ -1,0 +1,91 @@
+body {
+    background-color: #cfd6e3;
+    font-family: 'Poppins', sans-serif;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 35%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.title {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.title h1 {
+    font-size: 25px;
+}
+
+.total-price {
+    padding: 25px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total h3 {
+    font-size: 25px;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c7ffa6;
+    color: #4fa536;
+    border-radius: 5px;
+}
+
+.discount h3 {
+    font-size: 20px;
+    align-content: center;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.purchase-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.purchase-button button {
+    width: 90%;
+    height: 4rem;
+    background: #3b74f2;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    margin: 20px 0 20px 0;
+    font-weight: 600;
+    transition: filter 0.2s;
+}
+
+.purchase-button button:hover {
+    filter: brightness(0.9)
+}
